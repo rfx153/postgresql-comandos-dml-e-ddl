@@ -1,4 +1,4 @@
---aula 02
+--aula 03
 drop table a;
 create temporary table a (
 coluna1 varchar(255) not null check(coluna1 <> ''),
@@ -7,6 +7,8 @@ unique (coluna1, coluna2)
 );
 
 insert into a values ('a', 'b');
+
+insert into 
 
 insert into teste values ('b', 'c');
 select * from a;
